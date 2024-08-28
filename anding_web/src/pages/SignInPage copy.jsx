@@ -1,12 +1,12 @@
-import React from 'react'
-import SignIn from "../components/Auth/signup/admin/index";
+import React from "react";
+import SignIn from "../components/auth/signin/index";
 
 const AdminSignInPage = () => {
   return (
     <>
-        <SignIn />
+      <SignIn />
     </>
-  )
-}
+  );
+};
 
-export default AdminSignInPage
+export default AdminSignInPage;
